@@ -1,0 +1,6 @@
+{
+  "name": "Rimba Bestari BM Tahun 4 - Kisah Sang Kancil, Sang Kerbau & Sang Buaya",
+  "description": "Game Pendidikan Bahasa Melayu Sekolah Rendah Tahun 4 berasaskan DSKP 1.3, 1.3.2, Konsep 5P, Pembelajaran Berasaskan Masalah, Tema Integriti & Kemasyarakatan, serta Pembelajaran Masteri.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

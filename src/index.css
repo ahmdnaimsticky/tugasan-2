@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    background-color: #f8fafc;
+    color: #1e293b;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    letter-spacing: 0.01em;
+  }
+
+  /* Fun, friendly, storybook display font for kids & teachers */
+  h1, h2, h3, h4, h5, h6, .font-display, button, nav {
+    font-family: 'Fredoka', 'Plus Jakarta Sans', system-ui, sans-serif;
+    letter-spacing: 0.015em;
+  }
+}
+
+/* Custom scrollbar for game dialogue & story */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+::-webkit-scrollbar-thumb {
+  background: #a7f3d0;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #10b981;
+}
